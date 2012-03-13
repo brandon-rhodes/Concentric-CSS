@@ -1,3 +1,10 @@
+/* This ordering of CSS elements is for the traditional setting
+   "box-sizing: content-box", which applies the "width:" and "height:"
+   only to the innermost content of the box.  If you are using one of
+   the other box model settings - Paul Irish recommends "box-model:
+   border-box", for example - then simply move the "width:" and
+   "height:" up above the "border:" property in the list below. */
+
 #Concentric-CSS-Overview {
   display: ;    /* Directions about where and how the box is placed */
   position: ;
