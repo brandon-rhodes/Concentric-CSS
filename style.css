@@ -72,6 +72,12 @@
   border-right-style: ;
   border-bottom-style: ;
   border-left-style: ;
+  
+  border-radius: ;
+  border-top-left-radius: ;
+  border-top-right-radius: ;
+  border-bottom-right-radius: ;
+  border-bottom-left-radius: ;
 
   border-color: ;
   border-top-color: ;
@@ -79,11 +85,14 @@
   border-bottom-color: ;
   border-left-color: ;
 
+  box-shadow: ;
+
   background: ;
   background-color: ;
   background-image: ;
   background-repeat: ;
   background-position: ;
+  background-size: ;
   cursor: ;
 
   padding: ;
@@ -116,6 +125,7 @@
   text-indent: ;
   text-transform: ;
   text-decoration: ;
+  text-rendering: ;
 
   line-height: ;
   word-spacing: ;
