@@ -13,6 +13,7 @@
 
   visibility: ; /* Next: can the box be seen? */
   opacity: ;
+  transform: ;
   z-index: ;
 
   margin: ;     /* Layers of the box model, from outside to inside */
