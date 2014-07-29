@@ -40,8 +40,19 @@
   bottom: ;
   left: ;
 
+  columns: ;
+  column-gap: ;
+  column-fill: ;
+  column-rule: ;
+  column-span: ;
+  column-count: ;
+  column-width: ;
+
   float: ;
   clear: ;
+
+  transform: ;
+  transition: ;
 
   visibility: ;
   opacity: ;
@@ -60,7 +71,6 @@
   border-right: ;
   border-bottom: ;
   border-left: ;
-
   border-width: ;
   border-top-width: ;
   border-right-width: ;
@@ -73,17 +83,26 @@
   border-bottom-style: ;
   border-left-style: ;
 
+  border-radius: ;
+  border-top-left-radius: ;
+  border-top-right-radius: ;
+  border-bottom-left-radius: ;
+  border-bottom-right-radius: ;
+
   border-color: ;
   border-top-color: ;
   border-right-color: ;
   border-bottom-color: ;
   border-left-color: ;
 
+  box-shadow: ;
+
   background: ;
   background-color: ;
   background-image: ;
   background-repeat: ;
   background-position: ;
+  background-size: ;
   cursor: ;
 
   padding: ;
@@ -116,6 +135,9 @@
   text-indent: ;
   text-transform: ;
   text-decoration: ;
+  text-rendering: ;
+  text-shadow: ;
+  text-overflow: ;
 
   line-height: ;
   word-spacing: ;
@@ -127,6 +149,8 @@
   font-family: ;
   font-size: ;
   font-weight: ;
+  font-smoothing: ;
+  font-style: ;
 
   content: ;
   quotes: ;
