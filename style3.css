@@ -33,26 +33,66 @@
 #Concentric-CSS-Complete {
   /* All CSS properties, in roughly the order I use when being careful */
 
+  box-sizing: /* [content-box|border-box|inherit|initial|unset]*/ ;
+
+  /* #1 */
   display: ;
   position: ;
   top: ;
   right: ;
   bottom: ;
   left: ;
+  
+  float: ;
+  clear: ;
 
+  /* #2 */
+  align-content: ;
+  align-items: ;
+  align-self: ;
+  
+  /* #3 */
+  flex: ;
+  flex-basis: ;
+  flex-direction: ;
+  flex-flow: ;
+  flex-grow: ;
+  flex-shrink: ;
+  flex-wrap: ;
+  justify-content: ;
+
+  /* #4 */
+  order: ;
+
+
+  /* #5 */
   columns: ;
   column-gap: ;
   column-fill: ;
   column-rule: ;
+  column-rule-width: ;
+  column-rule-style: ;
+  column-rule-color: ;
   column-span: ;
   column-count: ;
   column-width: ;
 
-  float: ;
-  clear: ;
 
+  /* #6 */
+  backface-visibility: ;
+  perspective: ;
+  perspective-origin: ; 
   transform: ;
+  transform-origin: ;
+  transform-style: ;
+
+
+  /* #7 */
   transition: ;
+  transition-delay: ;
+  transition-duration: ;
+  transition-property: ;
+  transition-timing-function: ;
 
   visibility: ;
   opacity: ;
@@ -65,6 +105,10 @@
   margin-left: ;
 
   outline: ;
+  outline-offset: ;
+  outline-width: ;
+  outline-style: ;
+  outline-color: ;
 
   border: ;
   border-top: ;
@@ -95,14 +139,26 @@
   border-bottom-color: ;
   border-left-color: ;
 
+  border-image: ;
+  border-image-source: ;
+  border-image-width: ;
+  border-image-outset: ;
+  border-image-repeat: ;
+  border-image-slice: ;
+
   box-shadow: ;
 
   background: ;
+  background-attachment: ;
+  background-clip: ;
   background-color: ;
   background-image: ;
-  background-repeat: ;
+  background-origin: ;
   background-position: ;
+  background-repeat: ;
   background-size: ;
+
+
   cursor: ;
 
   padding: ;
@@ -120,8 +176,14 @@
   max-height: ;
 
   overflow: ;
+  overflow-x: ;
+  overflow-y: ;
+  resize: ;
 
   list-style: ;
+  list-style-type: ;
+  list-style-position: ;
+  list-style-image: ;
   caption-side: ;
 
   table-layout: ;
@@ -129,12 +191,29 @@
   border-spacing: ;
   empty-cells: ;
 
+  animation: ;  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/ 
+  animation-name: ;
+  animation-duration: ;
+  animation-timing-function: ;
+  animation-delay: ;
+  animation-iteration-count: ;
+  animation-direction: ;
+  animation-fill-mode: ;
+  animation-play-state: ;
+
   vertical-align: ;
 
+  direction: ;
+  tab-size: ;
   text-align: ;
+  text-align-last: ;
+  text-justify: ;
   text-indent: ;
   text-transform: ;
   text-decoration: ;
+  text-decoration-color: ;
+  text-decoration-line: ;
+  text-decoration-style: ;
   text-rendering: ;
   text-shadow: ;
   text-overflow: ;
@@ -143,15 +222,29 @@
   word-spacing: ;
   letter-spacing: ;
   white-space: ;
+  word-break: ; 
+  word-wrap: ;
   color: ;
 
   font: ;
   font-family: ;
   font-size: ;
+  font-size-adjust: ;
+  font-stretch: ;
   font-weight: ;
   font-smoothing: ;
+  osx-font-smoothing: ;
+  font-variant: ;
   font-style: ;
 
   content: ;
   quotes: ;
+
+  counter-reset: ;
+  counter-increment: ;
+
+  page-break-before: ;  /* [NOTE]: to be changed for <tt>break-[before|after]</tt>; */
+  page-break-after: ;
+  page-break-inside: ;
+
 }
