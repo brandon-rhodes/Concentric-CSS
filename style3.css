@@ -33,9 +33,11 @@
 #Concentric-CSS-Complete {
   /* All CSS properties, in roughly the order I use when being careful */
 
-  box-sizing: /* [content-box|border-box|inherit|initial|unset]*/ ;
+  /* box-sizing */
+  /* [content-box|border-box|inherit|initial|unset]*/ ;
+  box-sizing: ;
 
-  /* #1 */
+  /* position */
   display: ;
   position: ;
   top: ;
@@ -46,12 +48,12 @@
   float: ;
   clear: ;
 
-  /* #2 */
+  /* align-content */
   align-content: ;
   align-items: ;
   align-self: ;
   
-  /* #3 */
+  /* flex  */
   flex: ;
   flex-basis: ;
   flex-direction: ;
@@ -61,11 +63,11 @@
   flex-wrap: ;
   justify-content: ;
 
-  /* #4 */
+  /* order */
   order: ;
 
 
-  /* #5 */
+  /* columns */
   columns: ;
   column-gap: ;
   column-fill: ;
@@ -78,7 +80,7 @@
   column-width: ;
 
 
-  /* #6 */
+  /* transform */
   backface-visibility: ;
   perspective: ;
   perspective-origin: ; 
@@ -87,33 +89,33 @@
   transform-style: ;
 
 
-  /* #7 */
+  /* tranistions */
   transition: ;
   transition-delay: ;
   transition-duration: ;
   transition-property: ;
   transition-timing-function: ;
 
-  /* #8 */
+  /* visibility */
   visibility: ;
   opacity: ;
   z-index: ;
 
-  /* #9 */
+  /* margin */
   margin: ;
   margin-top: ;
   margin-right: ;
   margin-bottom: ;
   margin-left: ;
 
-  /* #10 */
+  /* outline */
   outline: ;
   outline-offset: ;
   outline-width: ;
   outline-style: ;
   outline-color: ;
 
-  /* #11 */
+  /* border */
   border: ;
   border-top: ;
   border-right: ;
@@ -125,28 +127,28 @@
   border-bottom-width: ;
   border-left-width: ;
 
-  /* #12 */
+  /* border-style */
   border-style: ;
   border-top-style: ;
   border-right-style: ;
   border-bottom-style: ;
   border-left-style: ;
 
-  /* #13 */
+  /* border-radius */
   border-radius: ;
   border-top-left-radius: ;
   border-top-right-radius: ;
   border-bottom-left-radius: ;
   border-bottom-right-radius: ;
 
-  /* #14 */
+  /* border-color */
   border-color: ;
   border-top-color: ;
   border-right-color: ;
   border-bottom-color: ;
   border-left-color: ;
   
-  /* #15 */
+  /* border-image */
   border-image: ;
   border-image-source: ;
   border-image-width: ;
@@ -154,10 +156,10 @@
   border-image-repeat: ;
   border-image-slice: ;
 
-  /* #16 */
+  /* box-shadow */
   box-shadow: ;
 
-  /* #17 */
+  /* background */
   background: ;
   background-attachment: ;
   background-clip: ;
@@ -168,47 +170,48 @@
   background-repeat: ;
   background-size: ;
 
-  /* #18 */
+  /* cursor */
   cursor: ;
 
-  /* #19 */
+  /* padding */
   padding: ;
   padding-top: ;
   padding-right: ;
   padding-bottom: ;
   padding-left: ;
 
-  /* #20 */
+  /* width */
   width: ;
   min-width: ;
   max-width: ;
 
-  /* #21 */
+  /* height */
   height: ;
   min-height: ;
   max-height: ;
 
-  /* #22 */
+  /* overflow */
   overflow: ;
   overflow-x: ;
   overflow-y: ;
   resize: ;
 
-  /* #22 */
+  /* list-style */
   list-style: ;
   list-style-type: ;
   list-style-position: ;
   list-style-image: ;
   caption-side: ;
 
-  /* #23 */
+  /* tables */
   table-layout: ;
   border-collapse: ;
   border-spacing: ;
   empty-cells: ;
 
-  /* #24 */
-  animation: ;  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/ 
+  /* animation */
+  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/ 
+  animation: ; 
   animation-name: ;
   animation-duration: ;
   animation-timing-function: ;
@@ -218,10 +221,10 @@
   animation-fill-mode: ;
   animation-play-state: ;
 
-  /* #25 */
+  /* vertical-aligment */
   vertical-align: ;
 
-  /* #26 */
+  /* text-alignment & decoration */
   direction: ;
   tab-size: ;
   text-align: ;
@@ -237,7 +240,7 @@
   text-shadow: ;
   text-overflow: ;
 
-  /* #27 */
+  /* text-spacing */
   line-height: ;
   word-spacing: ;
   letter-spacing: ;
@@ -246,7 +249,7 @@
   word-wrap: ;
   color: ;
 
-  /* #28 */
+  /* font */
   font: ;
   font-family: ;
   font-size: ;
@@ -258,15 +261,15 @@
   font-variant: ;
   font-style: ;
 
-  /* #29 */
+  /* content */
   content: ;
   quotes: ;
   
-  /* #30 */
+  /* counters */
   counter-reset: ;
   counter-increment: ;
 
-  /* #31 */
+  /* breaks */
   page-break-before: ;  /* [NOTE]: to be changed for <tt>break-[before|after]</tt>; */
   page-break-after: ;
   page-break-inside: ;
