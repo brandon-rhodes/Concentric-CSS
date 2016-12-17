@@ -33,9 +33,11 @@
 #Concentric-CSS-Complete {
   /* All CSS properties, in roughly the order I use when being careful */
 
-  box-sizing: /* [content-box|border-box|inherit|initial|unset]*/ ;
+  /* box-sizing */
+  /* [content-box|border-box|inherit|initial|unset]*/ ;
+  box-sizing: ;
 
-  /* #1 */
+  /* position */
   display: ;
   position: ;
   top: ;
@@ -46,12 +48,12 @@
   float: ;
   clear: ;
 
-  /* #2 */
+  /* align-content */
   align-content: ;
   align-items: ;
   align-self: ;
   
-  /* #3 */
+  /* flex  */
   flex: ;
   flex-basis: ;
   flex-direction: ;
@@ -61,11 +63,11 @@
   flex-wrap: ;
   justify-content: ;
 
-  /* #4 */
+  /* order */
   order: ;
 
 
-  /* #5 */
+  /* columns */
   columns: ;
   column-gap: ;
   column-fill: ;
@@ -78,7 +80,7 @@
   column-width: ;
 
 
-  /* #6 */
+  /* transform */
   backface-visibility: ;
   perspective: ;
   perspective-origin: ; 
@@ -87,29 +89,33 @@
   transform-style: ;
 
 
-  /* #7 */
+  /* tranistions */
   transition: ;
   transition-delay: ;
   transition-duration: ;
   transition-property: ;
   transition-timing-function: ;
 
+  /* visibility */
   visibility: ;
   opacity: ;
   z-index: ;
 
+  /* margin */
   margin: ;
   margin-top: ;
   margin-right: ;
   margin-bottom: ;
   margin-left: ;
 
+  /* outline */
   outline: ;
   outline-offset: ;
   outline-width: ;
   outline-style: ;
   outline-color: ;
 
+  /* border */
   border: ;
   border-top: ;
   border-right: ;
@@ -121,24 +127,28 @@
   border-bottom-width: ;
   border-left-width: ;
 
+  /* border-style */
   border-style: ;
   border-top-style: ;
   border-right-style: ;
   border-bottom-style: ;
   border-left-style: ;
 
+  /* border-radius */
   border-radius: ;
   border-top-left-radius: ;
   border-top-right-radius: ;
   border-bottom-left-radius: ;
   border-bottom-right-radius: ;
 
+  /* border-color */
   border-color: ;
   border-top-color: ;
   border-right-color: ;
   border-bottom-color: ;
   border-left-color: ;
-
+  
+  /* border-image */
   border-image: ;
   border-image-source: ;
   border-image-width: ;
@@ -146,8 +156,10 @@
   border-image-repeat: ;
   border-image-slice: ;
 
+  /* box-shadow */
   box-shadow: ;
 
+  /* background */
   background: ;
   background-attachment: ;
   background-clip: ;
@@ -158,40 +170,48 @@
   background-repeat: ;
   background-size: ;
 
-
+  /* cursor */
   cursor: ;
 
+  /* padding */
   padding: ;
   padding-top: ;
   padding-right: ;
   padding-bottom: ;
   padding-left: ;
 
+  /* width */
   width: ;
   min-width: ;
   max-width: ;
 
+  /* height */
   height: ;
   min-height: ;
   max-height: ;
 
+  /* overflow */
   overflow: ;
   overflow-x: ;
   overflow-y: ;
   resize: ;
 
+  /* list-style */
   list-style: ;
   list-style-type: ;
   list-style-position: ;
   list-style-image: ;
   caption-side: ;
 
+  /* tables */
   table-layout: ;
   border-collapse: ;
   border-spacing: ;
   empty-cells: ;
 
-  animation: ;  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/ 
+  /* animation */
+  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/ 
+  animation: ; 
   animation-name: ;
   animation-duration: ;
   animation-timing-function: ;
@@ -201,8 +221,10 @@
   animation-fill-mode: ;
   animation-play-state: ;
 
+  /* vertical-aligment */
   vertical-align: ;
 
+  /* text-alignment & decoration */
   direction: ;
   tab-size: ;
   text-align: ;
@@ -218,6 +240,7 @@
   text-shadow: ;
   text-overflow: ;
 
+  /* text-spacing */
   line-height: ;
   word-spacing: ;
   letter-spacing: ;
@@ -226,6 +249,7 @@
   word-wrap: ;
   color: ;
 
+  /* font */
   font: ;
   font-family: ;
   font-size: ;
@@ -237,12 +261,15 @@
   font-variant: ;
   font-style: ;
 
+  /* content */
   content: ;
   quotes: ;
-
+  
+  /* counters */
   counter-reset: ;
   counter-increment: ;
 
+  /* breaks */
   page-break-before: ;  /* [NOTE]: to be changed for <tt>break-[before|after]</tt>; */
   page-break-after: ;
   page-break-inside: ;
