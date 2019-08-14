@@ -32,7 +32,7 @@
 
 #Concentric-CSS-Complete {
   /* All CSS properties, in roughly the order I use when being careful */
-	
+
 	/* added all property -- this resets all properties (except direction) to initial value */
 	all: ;
 
@@ -51,7 +51,7 @@
   /* floats */
   float: ;
   clear: ;
-  
+
   /* flex  */
   flex: ;
   flex-basis: ;
@@ -60,7 +60,7 @@
   flex-grow: ;
   flex-shrink: ;
   flex-wrap: ;
-  
+
   /* grid */
   grid: ;
   grid-area: ;
@@ -80,12 +80,12 @@
 	grid-gap: ;
 	grid-row-gap: ;
 	grid-column-gap': ;
-	
+
   /* align-content */
   align-content: ;
   align-items: ;
   align-self: ;
-	
+
 	/* justify-content */
   justify-content: ;
   justify-items: ;
@@ -109,7 +109,7 @@
   /* transform */
   backface-visibility: ;
   perspective: ;
-  perspective-origin: ; 
+  perspective-origin: ;
   transform: ;
   transform-origin: ;
   transform-style: ;
@@ -172,7 +172,7 @@
   border-right-color: ;
   border-bottom-color: ;
   border-left-color: ;
-  
+
   /* border-image */
   border-image: ;
   border-image-source: ;
@@ -235,8 +235,8 @@
   empty-cells: ;
 
   /* animation */
-  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/ 
-  animation: ; 
+  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/
+  animation: ;
   animation-name: ;
   animation-duration: ;
   animation-timing-function: ;
@@ -270,7 +270,7 @@
   word-spacing: ;
   letter-spacing: ;
   white-space: ;
-  word-break: ; 
+  word-break: ;
   word-wrap: ;
   color: ;
 
@@ -289,7 +289,7 @@
   /* content */
   content: ;
   quotes: ;
-  
+
   /* counters */
   counter-reset: ;
   counter-increment: ;
