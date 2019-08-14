@@ -32,6 +32,9 @@
 
 #Concentric-CSS-Complete {
   /* All CSS properties, in roughly the order I use when being careful */
+	
+	/* added all property -- this resets all properties (except direction) to initial value */
+	all: ;
 
   /* box-sizing */
   /* [content-box|border-box|inherit|initial|unset]*/ ;
@@ -44,14 +47,10 @@
   right: ;
   bottom: ;
   left: ;
-  
+
+  /* floats */
   float: ;
   clear: ;
-
-  /* align-content */
-  align-content: ;
-  align-items: ;
-  align-self: ;
   
   /* flex  */
   flex: ;
@@ -61,11 +60,39 @@
   flex-grow: ;
   flex-shrink: ;
   flex-wrap: ;
+  
+  /* grid */
+  grid: ;
+  grid-area: ;
+  grid-template: ;
+	grid-template-areas: ;
+	grid-template-rows: ;
+	grid-template-columns: ;
+	grid-row: ;
+	grid-row-start: ;
+	grid-row-end: ;
+	grid-column: ;
+	grid-column-start: ;
+	grid-column-end: ;
+	grid-auto-rows: ;
+	grid-auto-columns: ;
+	grid-auto-flow: ;
+	grid-gap: ;
+	grid-row-gap: ;
+	grid-column-gap': ;
+	
+  /* align-content */
+  align-content: ;
+  align-items: ;
+  align-self: ;
+	
+	/* justify-content */
   justify-content: ;
+  justify-items: ;
+  justify-self: ;
 
   /* order */
   order: ;
-
 
   /* columns */
   columns: ;
@@ -79,7 +106,6 @@
   column-count: ;
   column-width: ;
 
-
   /* transform */
   backface-visibility: ;
   perspective: ;
@@ -87,7 +113,6 @@
   transform: ;
   transform-origin: ;
   transform-style: ;
-
 
   /* tranistions */
   transition: ;
