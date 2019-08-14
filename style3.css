@@ -33,8 +33,8 @@
 #Concentric-CSS-Complete {
   /* All CSS properties, in roughly the order I use when being careful */
 
-	/* added all property -- this resets all properties (except direction) to initial value */
-	all: ;
+  /* all */
+  all: ;
 
   /* box-sizing */
   /* [content-box|border-box|inherit|initial|unset]*/ ;
@@ -48,11 +48,11 @@
   bottom: ;
   left: ;
 
-  /* floats */
+  /* float */
   float: ;
   clear: ;
 
-  /* flex  */
+  /* flex */
   flex: ;
   flex-basis: ;
   flex-direction: ;
@@ -65,28 +65,28 @@
   grid: ;
   grid-area: ;
   grid-template: ;
-	grid-template-areas: ;
-	grid-template-rows: ;
-	grid-template-columns: ;
-	grid-row: ;
-	grid-row-start: ;
-	grid-row-end: ;
-	grid-column: ;
-	grid-column-start: ;
-	grid-column-end: ;
-	grid-auto-rows: ;
-	grid-auto-columns: ;
-	grid-auto-flow: ;
-	grid-gap: ;
-	grid-row-gap: ;
-	grid-column-gap': ;
+  grid-template-areas: ;
+  grid-template-rows: ;
+  grid-template-columns: ;
+  grid-row: ;
+  grid-row-start: ;
+  grid-row-end: ;
+  grid-column: ;
+  grid-column-start: ;
+  grid-column-end: ;
+  grid-auto-rows: ;
+  grid-auto-columns: ;
+  grid-auto-flow: ;
+  grid-gap: ;
+  grid-row-gap: ;
+  grid-column-gap: ;
 
   /* align-content */
   align-content: ;
   align-items: ;
   align-self: ;
 
-	/* justify-content */
+  /* justify-content */
   justify-content: ;
   justify-items: ;
   justify-self: ;
