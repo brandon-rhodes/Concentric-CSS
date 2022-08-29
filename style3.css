@@ -37,12 +37,19 @@
   all: ;
 
   /* box-sizing */
-  /* [content-box|border-box|inherit|initial|unset]*/ ;
+  /* [content-box|border-box|inherit|initial|unset] ; */
   box-sizing: ;
 
   /* position */
   display: ;
   position: ;
+  inset: ;
+  inset-block: ;
+  inset-block-start: ;
+  inset-block-end: ;
+  inset-inline: ;
+  inset-inline-start: ;
+  inset-inline-end: ;
   top: ;
   right: ;
   bottom: ;
@@ -51,15 +58,16 @@
   /* float */
   float: ;
   clear: ;
+  contain: ;
 
   /* flex */
-  flex: ;
-  flex-basis: ;
-  flex-direction: ;
   flex-flow: ;
+  flex-direction: ;
+  flex-wrap: ;
+  flex: ;
   flex-grow: ;
   flex-shrink: ;
-  flex-wrap: ;
+  flex-basis: ;
 
   /* grid */
   grid: ;
@@ -80,6 +88,18 @@
   grid-gap: ;
   grid-row-gap: ;
   grid-column-gap: ;
+  masonry-auto-flow: ;
+  align-tracks: ;
+
+  /* gap */
+  gap: ;
+  row-gap: ;
+  column-gap: ;
+
+  /* place-content */
+  place-content: ;
+  place-items: ;
+  place-self: ;
 
   /* align-content */
   align-content: ;
@@ -90,6 +110,7 @@
   justify-content: ;
   justify-items: ;
   justify-self: ;
+  justify-tracks: ;
 
   /* order */
   order: ;
@@ -107,24 +128,60 @@
   column-width: ;
 
   /* transform */
+  appearance: ;
+  color-scheme: ;
+  forced-color-adjust: ;
   backface-visibility: ;
   perspective: ;
   perspective-origin: ;
   transform: ;
+  transform-box: ;
   transform-origin: ;
   transform-style: ;
+  filter: ;
+  backdrop-filter: ;
+  image-orientation: ;
+  image-rendering: ;
+  image-resolution: ;
+  rotate: ;
+  scale: ;
+  translate: ;
+  will-change: ;
 
   /* transitions */
   transition: ;
-  transition-delay: ;
-  transition-duration: ;
   transition-property: ;
+  transition-duration: ;
   transition-timing-function: ;
+  transition-delay: ;
 
   /* visibility */
   visibility: ;
   opacity: ;
   z-index: ;
+  isolation: ;
+  content-visibility: ;
+  clip: ;
+  clip-path: ;
+
+  /* masking */
+  mask: ;
+  mask-image: ;
+  mask-mode: ;
+  mask-position: ;
+  mask-size: ;
+  mask-repeat: ;
+  mask-origin: ;
+  mask-clip: ;
+  mask-composite: ;
+  mask-type: ;
+  mask-border: ;
+  mask-border-source: ;
+  mask-border-slice: ;
+  mask-border-width: ;
+  mask-border-outset: ;
+  mask-border-repeat: ;
+  mask-border-mode: ;
 
   /* margin */
   margin: ;
@@ -132,6 +189,13 @@
   margin-right: ;
   margin-bottom: ;
   margin-left: ;
+  margin-block: ;
+  margin-block-start: ;
+  margin-block-end: ;
+  margin-inline: ;
+  margin-inline-start: ;
+  margin-inline-end: ;
+  margin-trim: ;
 
   /* outline */
   outline: ;
@@ -146,11 +210,23 @@
   border-right: ;
   border-bottom: ;
   border-left: ;
+  border-block: ;
+  border-block-start: ;
+  border-block-end: ;
+  border-inline: ;
+  border-inline-start: ;
+  border-inline-end: ;
   border-width: ;
   border-top-width: ;
   border-right-width: ;
   border-bottom-width: ;
   border-left-width: ;
+  border-block-width: ;
+  border-block-start-width: ;
+  border-block-end-width: ;
+  border-inline-width: ;
+  border-inline-start-width: ;
+  border-inline-end-width: ;
 
   /* border-style */
   border-style: ;
@@ -158,13 +234,23 @@
   border-right-style: ;
   border-bottom-style: ;
   border-left-style: ;
+  border-block-style: ;
+  border-block-start-style: ;
+  border-block-end-style: ;
+  border-inline-style: ;
+  border-inline-start-style: ;
+  border-inline-end-style: ;
 
   /* border-radius */
   border-radius: ;
   border-top-left-radius: ;
   border-top-right-radius: ;
+  border-start-start-radius: ;
+  border-start-end-radius: ;
   border-bottom-left-radius: ;
   border-bottom-right-radius: ;
+  border-end-start-radius: ;
+  border-end-end-radius: ;
 
   /* border-color */
   border-color: ;
@@ -172,6 +258,12 @@
   border-right-color: ;
   border-bottom-color: ;
   border-left-color: ;
+  border-block-color: ;
+  border-block-start-color: ;
+  border-block-end-color: ;
+  border-inline-color: ;
+  border-inline-start-color: ;
+  border-inline-end-color: ;
 
   /* border-image */
   border-image: ;
@@ -192,11 +284,21 @@
   background-image: ;
   background-origin: ;
   background-position: ;
+  background-position-x: ;
+  background-position-y: ;
   background-repeat: ;
   background-size: ;
+  background-blend-mode: ;
+  mix-blend-mode: ;
+  shape-outside: ;
+  shape-margin: ;
+  shape-image-threshold: ;
 
   /* cursor */
   cursor: ;
+  pointer-events: ;
+  touch-action: ;
+  user-select: ;
 
   /* padding */
   padding: ;
@@ -204,21 +306,40 @@
   padding-right: ;
   padding-bottom: ;
   padding-left: ;
+  padding-block: ;
+  padding-block-start: ;
+  padding-block-end: ;
+  padding-inline: ;
+  padding-inline-start: ;
+  padding-inline-end: ;
 
   /* width */
   width: ;
   min-width: ;
   max-width: ;
+  inline-size: ;
+  min-inline-size: ;
+  max-inline-size: ;
 
   /* height */
   height: ;
   min-height: ;
   max-height: ;
+  block-size: ;
+  min-block-size: ;
+  max-block-size: ;
 
   /* overflow */
+  aspect-ratio: ;
+  object-fit: ;
+  object-position: ;
   overflow: ;
   overflow-x: ;
   overflow-y: ;
+  overflow-block: ;
+  overflow-inline: ;
+  overflow-wrap: ;
+  overflow-clip-margin: ;
   resize: ;
 
   /* list-style */
@@ -235,68 +356,151 @@
   empty-cells: ;
 
   /* animation */
-  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]]*/
+  /* animation-[[name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]] */
   animation: ;
   animation-name: ;
   animation-duration: ;
+  animation-timeline: ;
   animation-timing-function: ;
   animation-delay: ;
   animation-iteration-count: ;
   animation-direction: ;
   animation-fill-mode: ;
   animation-play-state: ;
+  offset: ;
+  offset-position: ;
+  offset-path: ;
+  offset-distance: ;
+  offset-rotate: ;
+  offset-anchor: ;
 
   /* vertical-alignment */
   vertical-align: ;
 
   /* text-alignment & decoration */
+  writing-mode: ;
+  box-decoration-break: ;
   direction: ;
+  unicode-bidi: ;
   tab-size: ;
   text-align: ;
   text-align-last: ;
   text-justify: ;
   text-indent: ;
+  text-orientation: ;
   text-transform: ;
+  text-underline-offset: ;
+  text-underline-position: ;
   text-decoration: ;
-  text-decoration-color: ;
   text-decoration-line: ;
+  text-decoration-color: ;
   text-decoration-style: ;
+  text-decoration-thickness: ;
+  text-decoration-skip: ;
+  text-decoration-skip-ink: ;
+  text-emphasis: ;
+  text-emphasis-style: ;
+  text-emphasis-color: ;
+  text-emphasis-position: ;
   text-rendering: ;
   text-shadow: ;
   text-overflow: ;
+  hanging-punctuation: ;
+  hyphens: ;
+  hyphenate-character: ;
+  text-combine-upright: ;
 
   /* text-spacing */
   line-height: ;
+  line-height-step: ;
   word-spacing: ;
   letter-spacing: ;
   white-space: ;
   word-break: ;
   word-wrap: ;
   color: ;
+  accent-color: ;
+  caret-color: ;
+  line-break: ;
 
   /* font */
   font: ;
   font-family: ;
   font-size: ;
   font-size-adjust: ;
+  text-size-adjust: ;
+  font-optical-sizing: ;
   font-stretch: ;
+  font-synthesis: ;
   font-weight: ;
   font-smoothing: ;
   osx-font-smoothing: ;
   font-variant: ;
+  font-variant-ligatures: ;
+  font-variant-alternates: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-variant-position: ;
+  font-variation-settings: ;
   font-style: ;
+  font-feature-settings: ;
+  font-kerning: ;
+  font-language-override: ;
+  initial-letter: ;
+  initial-letter-align: ;
 
   /* content */
   content: ;
   quotes: ;
 
   /* counters */
+  counter-set: ;
   counter-reset: ;
   counter-increment: ;
 
+  /* scrolling */
+  scroll-snap-align: ;
+  scroll-snap-stop: ;
+  scroll-snap-type: ;
+  scroll-margin-block: ;
+  scroll-margin-block-start: ;
+  scroll-margin-block-end: ;
+  scroll-margin-inline: ;
+  scroll-margin-inline-start: ;
+  scroll-margin-inline-end: ;
+  scroll-behavior: ;
+  scroll-margin: ;
+  scroll-margin-top: ;
+  scroll-margin-right: ;
+  scroll-margin-bottom: ;
+  scroll-margin-left: ;
+  scroll-padding: ;
+  scroll-padding-top: ;
+  scroll-padding-right: ;
+  scroll-padding-bottom: ;
+  scroll-padding-left: ;
+  scroll-padding-block: ;
+  scroll-padding-block-start: ;
+  scroll-padding-block-end: ;
+  scroll-padding-inline: ;
+  scroll-padding-inline-start: ;
+  scroll-padding-inline-end: ;
+  overflow-anchor: ;
+  overscroll-behavior: ;
+  overscroll-behavior-x: ;
+  overscroll-behavior-y: ;
+  overscroll-behavior-block: ;
+  overscroll-behavior-inline: ;
+
   /* breaks */
-  page-break-before: ;  /* [NOTE]: to be changed for <tt>break-[before|after]</tt>; */
+  page-break-before: ;
   page-break-after: ;
   page-break-inside: ;
-
+  break-before: ;
+  break-after: ;
+  break-inside: ;
+  orphans: ;
+  widows: ;
+  
 }
